@@ -1,3 +1,0 @@
-<template>
-  <input-field default="com.deloki.worldE.config">IJ_BASE_PACKAGE</input-field>
-</template>

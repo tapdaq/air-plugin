@@ -1,76 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="Flex" version="4">
-  <component name="FlexBuildConfigurationManager" active="Tapdaq">
+  <component name="FlexBuildConfigurationManager" active="TestingFPTapdaqANE">
     <configurations>
-      <configuration name="Tapdaq" target-platform="Mobile" pure-as="true" main-class="TapdaqMain" output-file="Tapdaq.swf" output-folder="$MODULE_DIR$/out/production/Tapdaq">
-        <dependencies target-player="16.0">
+      <configuration name="TestingFPTapdaqANE" target-platform="Mobile" pure-as="true" main-class="TapdaqMain" output-file="TestingFPTapdaqANE.swf" output-folder="$MODULE_DIR$/out">
+        <dependencies target-player="27.0">
           <entries>
-            <entry library-id="622ce835-c1c0-43bc-b8e2-3714790f3986">
+            <entry library-id="beaa54ba-51ee-468b-a0a0-61b38dc72a10">
               <dependency linkage="Merged" />
             </entry>
-            <entry library-id="50fd6567-60d9-4a93-8415-eec8378cbe26">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="139265f4-b690-4d86-95d3-1b6c1956ae87">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="02af4cbb-6022-4bb8-8977-ca0b33923505">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="1e224fff-ade7-42af-990b-96d065479b2b">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="a44a2bec-81c5-4832-84db-e0bab8887b67">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="4c0056ef-6938-441f-b3f9-026b8eab970c">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="42fd0eca-42c3-4c5a-ac0f-4e71abf1c184">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="3cc1164d-2b27-475b-8601-6012ab89cbac">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="1ab20c75-b8f5-4bdc-b68c-df3d7c75356f">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="b52e72a6-48c4-4970-990c-eba2d37bd611">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="07f6730e-e25a-400f-97fe-1b86d30e2825">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="f5b4f14f-d499-486e-8067-b1de97e4293d">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="9f02ed85-297f-4130-bf14-ec0d10b261cb">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="2912f5fc-aa94-4770-a401-dd9dc46ba8cd">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="2b2c4b1f-bd34-415b-a71a-9c6658a65280">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry library-id="d168419b-3957-4c7f-a7c6-11b9bfdffd9c">
+            <entry library-id="e83314c7-aee9-4467-8f83-09689a8089b7">
               <dependency linkage="Merged" />
             </entry>
           </entries>
-          <sdk name="AIRSDK_25" />
+          <sdk name="AIRSDK_27" />
         </dependencies>
-        <compiler-options />
+        <compiler-options>
+          <map>
+            <entry key="compiler.debug.swf" value="true" />
+          </map>
+        </compiler-options>
         <packaging-air-desktop />
-        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Tapdaq-app.xml" package-file-name="Tapdaq" />
-        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Tapdaq-app.xml" package-file-name="Tapdaq">
+        <packaging-android use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Tapdaq-app.xml" package-file-name="TestingFPTapdaqANE" />
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Tapdaq-app.xml" package-file-name="TestingFPTapdaqANE">
           <files-to-package>
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/Default-375w-667h@2x.png" path-in-package="Default-375w-667h@2x.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/Default-414w-736h@3x.png" path-in-package="Default-414w-736h@3x.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/Default-568h@2x.png" path-in-package="Default-568h@2x.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/Default.png" path-in-package="Default.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/Default@2x.png" path-in-package="Default@2x.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/resources" path-in-package="." />
           </files-to-package>
-          <AirSigningOptions keystore-path="$MODULE_DIR$/certificates/MateoDistributionCertificate.p12" provisioning-profile-path="$MODULE_DIR$/certificates/TapdaqAdHoc-3.mobileprovision" />
+          <AirSigningOptions keystore-path="$USER_HOME$/Documents/Dist_18-07-2018_Certificates.p12" provisioning-profile-path="$USER_HOME$/Downloads/TD_Air_Appstore.mobileprovision" />
         </packaging-ios>
       </configuration>
     </configurations>
@@ -81,176 +36,28 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="AIRSDK_25" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="jdk" jdkName="AIRSDK_27" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
       <library type="flex">
-        <properties id="622ce835-c1c0-43bc-b8e2-3714790f3986" />
+        <properties id="beaa54ba-51ee-468b-a0a0-61b38dc72a10" />
         <CLASSES>
-          <root url="file://$MODULE_DIR$/libs/Starling-Framework-master/starling/src" />
+          <root url="file://$MODULE_DIR$/anes" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/anes" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library type="flex">
-        <properties id="50fd6567-60d9-4a93-8415-eec8378cbe26" />
+        <properties id="e83314c7-aee9-4467-8f83-09689a8089b7" />
         <CLASSES>
-          <root url="file://$MODULE_DIR$/libs/feathers-3.1.x/source" />
+          <root url="file://$MODULE_DIR$/libs" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="139265f4-b690-4d86-95d3-1b6c1956ae87" />
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/libs/feathers-3.1.x/themes/AeonDesktopTheme/source" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="02af4cbb-6022-4bb8-8977-ca0b33923505" />
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/libs/feathers-3.1.x/themes/MetalWorksDesktopTheme/source" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="1e224fff-ade7-42af-990b-96d065479b2b" />
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/libs/feathers-3.1.x/themes/MetalWorksMobileTheme/source" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="a44a2bec-81c5-4832-84db-e0bab8887b67" />
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/libs/feathers-3.1.x/themes/MinimalDesktopTheme/source" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="4c0056ef-6938-441f-b3f9-026b8eab970c" />
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/libs/feathers-3.1.x/themes/MinimalMobileTheme/source" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="42fd0eca-42c3-4c5a-ac0f-4e71abf1c184" />
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/libs/feathers-3.1.x/themes/TopcoatLightMobileTheme/source" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="3cc1164d-2b27-475b-8601-6012ab89cbac" />
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/TapdaqVungle.ane!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="1ab20c75-b8f5-4bdc-b68c-df3d7c75356f" />
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/TapdaqAdColony.ane!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="b52e72a6-48c4-4970-990c-eba2d37bd611" />
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/TapdaqAdMob.ane!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="07f6730e-e25a-400f-97fe-1b86d30e2825" />
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/TapdaqAppLovin.ane!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="f5b4f14f-d499-486e-8067-b1de97e4293d" />
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/TapdaqChartboost.ane!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="9f02ed85-297f-4130-bf14-ec0d10b261cb" />
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/TapdaqFacebook.ane!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="2912f5fc-aa94-4770-a401-dd9dc46ba8cd" />
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/TapdaqUnityAds.ane!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="2b2c4b1f-bd34-415b-a71a-9c6658a65280" />
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/Tapdaq.ane!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="d168419b-3957-4c7f-a7c6-11b9bfdffd9c" />
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/TapdaqTapjoy.ane!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/libs" recursive="false" />
       </library>
     </orderEntry>
   </component>

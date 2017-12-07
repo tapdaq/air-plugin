@@ -1,6 +1,6 @@
 package {
 
-import com.deloki.tapdaq.views.AppRoot;
+import com.tapdaq.airsdk.views.AppRoot;
 import feathers.utils.ScreenDensityScaleFactorManager;
 
 import flash.display.Sprite;

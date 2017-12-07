@@ -1,213 +1,58 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
-<!-- Adobe AIR Application Descriptor File Template.
-     Specifies parameters for identifying, installing, and launching AIR applications.
-
-     xmlns - The Adobe AIR namespace: http://ns.adobe.com/air/application/16.0.
-     The last segment of the namespace specifies the version of the AIR runtime required for this application to run.
-
-     minimumPatchLevel - The minimum patch level of the AIR runtime required to run the application. Optional. -->
-
-<application xmlns="http://ns.adobe.com/air/application/25.0">
-
-    <!-- A universally unique application identifier. Must be unique across all AIR applications.
-         Using a reverse DNS-style name as the id is recommended. (Eg. com.example.ExampleApplication.) Required. -->
+<application xmlns="http://ns.adobe.com/air/application/27.0">
     <id>com.tapdaq.airsample</id>
-
-
-    <!-- Used as the filename for the application. Required. -->
     <filename>Tapdaq</filename>
-
-    <!-- The name that is displayed in the AIR application installer. May have multiple values for each language. See samples or xsd schema file. Optional. -->
     <name>Tapdaq Air</name>
-
-    <!-- A string value of the format <0-999>.<0-999>.<0-999> that represents application version which can be used to check for application upgrade.
-         Values can also be 1-part or 2-part. It is not necessary to have a 3-part value.
-         An updated version of application must have a versionNumber value higher than the previous version. Required for namespace >= 2.5. -->
-    <versionNumber>1.0.0</versionNumber>
-
-    <!-- A string value (such as "v1", "2.5", or "Alpha 1") that represents the version of the application, as it should be shown to users. Optional. -->
-    <!--<versionLabel></versionLabel>-->
-
-    <!-- An application version designator (such as "v1", "2.5", or "Alpha 1"). Required for namespace < 2.5. -->
-    <!--<version>0.0.0</version>-->
-
-    <!-- Description, displayed in the AIR application installer. May have multiple values for each language. See samples or xsd schema file. Optional. -->
-    <!--<description></description>-->
-
-    <!-- Copyright information. Optional -->
-    <!--<copyright></copyright>-->
-
-    <!-- Publisher ID. Used if you're updating an application created prior to 1.5.3 -->
-    <!--<publisherID></publisherID>-->
-
-    <!-- Identifies the ActionScript extensions used by an application. -->
+    <versionNumber>1.1.9</versionNumber>
     <extensions>
-        <extensionID>com.tapdaq.ane.TapdaqAdMob</extensionID>
-        <extensionID>com.tapdaq.ane.TapdaqTapjoy</extensionID>
-        <extensionID>com.tapdaq.ane.TapdaqVungle</extensionID>
-        <extensionID>com.tapdaq.ane.TapdaqChartboost</extensionID>
-        <extensionID>com.tapdaq.ane.TapdaqAppLovin</extensionID>
-        <extensionID>com.tapdaq.ane.TapdaqAdColony</extensionID>
-        <extensionID>com.tapdaq.ane.TapdaqFacebook</extensionID>
-        <extensionID>com.tapdaq.ane.TapdaqUnityAds</extensionID>
-        <extensionID>com.tapdaq.ane.TapdaqIronSource</extensionID>
-        <extensionID>com.tapdaq.ane.Tapdaq</extensionID>
+        <extensionID>com.tapdaq.airsdk</extensionID>
+        <extensionID>com.tapdaq.airsdk.google</extensionID>
+        <extensionID>com.tapdaq.airsdk.adcolony</extensionID>
+        <extensionID>com.tapdaq.airsdk.admob</extensionID>
+        <extensionID>com.tapdaq.airsdk.applovin</extensionID>
+        <extensionID>com.tapdaq.airsdk.chartboost</extensionID>
+        <extensionID>com.tapdaq.airsdk.fan</extensionID>
+        <extensionID>com.tapdaq.airsdk.hyprmx</extensionID>
+        <extensionID>com.tapdaq.airsdk.inmobi</extensionID>
+        <extensionID>com.tapdaq.airsdk.ironsource</extensionID>
+        <extensionID>com.tapdaq.airsdk.mopub</extensionID>
+        <extensionID>com.tapdaq.airsdk.receptiv</extensionID>
+        <extensionID>com.tapdaq.airsdk.tapjoy</extensionID>
+        <extensionID>com.tapdaq.airsdk.unity</extensionID>
+        <extensionID>com.tapdaq.airsdk.vungle</extensionID>
+
+
     </extensions>
 
-    <!-- Settings for the application's initial window. Required. -->
     <initialWindow>
-        <!-- The main SWF or HTML file of the application. Required. -->
-        <content>SWF file name is set automatically at compile time</content>
-
-        <!-- The title of the main window. Optional. -->
-        <!--<title></title>-->
-
-        <!-- The type of system chrome to use (either "standard" or "none"). Optional. Default standard. -->
-        <!--<systemChrome></systemChrome>-->
-
-        <!-- Whether the window is transparent. Only applicable when systemChrome is none. Optional. Default false. -->
-        <!--<transparent></transparent>-->
-
-        <!-- Whether the window is initially visible. Optional. Default false. -->
+        <content></content>
         <visible>true</visible>
-
-        <!-- Whether the user can minimize the window. Optional. Default true. -->
-        <!--<minimizable></minimizable>-->
-
-        <!-- Whether the user can maximize the window. Optional. Default true. -->
-        <!--<maximizable></maximizable>-->
-
-        <!-- Whether the user can resize the window. Optional. Default true. -->
-        <!--<resizable></resizable>-->
-
-        <!-- The window's initial width in pixels. Optional. -->
-        <!--<width></width>-->
-
-        <!-- The window's initial height in pixels. Optional. -->
-        <!--<height></height>-->
-
-        <!-- The window's initial x position. Optional. -->
-        <!--<x></x>-->
-
-        <!-- The window's initial y position. Optional. -->
-        <!--<y></y>-->
-
-        <!-- The window's minimum size, specified as a width/height pair in pixels, such as "400 200". Optional. -->
-        <!--<minSize></minSize>-->
-
-        <!-- The window's initial maximum size, specified as a width/height pair in pixels, such as "1600 1200". Optional. -->
-        <!--<maxSize></maxSize>-->
-
-        <!-- The aspect ratio of the app ("portrait" or "landscape" or "any"). Optional. Mobile only. Default is the natural orientation of the device -->
         <aspectRatio>portrait</aspectRatio>
-
-        <!-- Whether the app will begin auto-orienting on launch. Optional. Mobile only. Default false -->
         <autoOrients>false</autoOrients>
-
-        <!-- Whether the app launches in full screen. Optional. Mobile only. Default false -->
         <fullScreen>true</fullScreen>
-
-        <!-- The render mode for the app (either auto, cpu, gpu, or direct). Optional. Default auto -->
         <renderMode>direct</renderMode>
-
-        <!-- Whether the default direct mode rendering context allocates storage for depth and stencil buffers.  Optional.  Default false. -->
         <depthAndStencil>true</depthAndStencil>
-
-        <!-- Whether or not to pan when a soft keyboard is raised or lowered (either "pan" or "none").  Optional.  Defaults "pan." -->
-        <!--<softKeyboardBehavior></softKeyboardBehavior>-->
-
-        <!-- Display Resolution for the app (either "standard" or "high"). Optional, OSX-only. Default "standard" -->
-        <!-- <requestedDisplayResolution></requestedDisplayResolution> -->
     </initialWindow>
+    
+    <icon>
+        <image72x72>Icon72.png</image72x72>
+        <image76x76>Icon76.png</image76x76>
+        <image120x120>Icon120.png</image120x120>
+        <image152x152>Icon152.png</image152x152>
+    </icon>
 
-    <!-- We recommend omitting the supportedProfiles element, which in turn permits your application to be deployed to all devices supported by AIR.
-         If you wish to restrict deployment (i.e., to only mobile devices) then add this element and list only the profiles which your application does support. -->
-    <!--<supportedProfiles>desktop extendedDesktop mobileDevice extendedMobileDevice</supportedProfiles>-->
-
-    <!-- Languages supported by application. Only these languages can be specified -->
-    <!--<supportedLanguages>en de cs es fr it ja ko nl pl pt ru sv tr zh</supportedLanguages>-->
-
-    <!-- The subpath of the standard default installation location to use. Optional. -->
-    <!--<installFolder></installFolder>-->
-
-    <!-- The subpath of the Programs menu to use. (Ignored on operating systems without a Programs menu.) Optional. -->
-    <!--<programMenuFolder></programMenuFolder>-->
-
-    <!-- The icon the system uses for the application. For at least one resolution, specify the path to a PNG file included in the AIR package. Optional. -->
-    <!--<icon>
-        <image16x16></image16x16>
-        <image29x29></image29x29>
-        <image32x32></image32x32>
-        <image36x36></image36x36>
-        <image40x40></image40x40>
-        <image48x48></image48x48>
-        <image50x50></image50x50>
-        <image57x57></image57x57>
-        <image58x58></image58x58>
-        <image60x60></image60x60>
-        <image72x72></image72x72>
-        <image76x76></image76x76>
-        <image80x80></image80x80>
-        <image96x96></image96x96>
-        <image100x100></image100x100>
-        <image114x114></image114x114>
-        <image120x120></image120x120>
-        <image128x128></image128x128>
-        <image144x144></image144x144>
-        <image152x152></image152x152>
-        <image512x512></image512x512>
-        <image732x412></image732x412>
-        <image1024x1024></image1024x1024>
-    </icon>-->
-
-    <!-- Whether the application handles the update when a user double-clicks an update version of the AIR file (true),
-         or the default AIR application installer handles the update (false). Optional. Default false. -->
-    <!--<customUpdateUI></customUpdateUI>-->
-
-    <!-- Whether the application can be launched when the user clicks a link in a web browser. Optional. Default false. -->
-    <!--<allowBrowserInvocation></allowBrowserInvocation>-->
-
-    <!-- Listing of file types for which the application can register. Optional. -->
-    <!--<fileTypes>-->
-    <!-- Defines one file type. Optional. -->
-    <!--<fileType>-->
-    <!-- The name that the system displays for the registered file type. Required. -->
-    <!--<name></name>-->
-    <!-- The extension to register. Required. -->
-    <!--<extension></extension>-->
-    <!-- The description of the file type. Optional. -->
-    <!--<description></description>-->
-    <!-- The MIME content type. -->
-    <!--<contentType></contentType>-->
-    <!-- The icon to display for the file type. Optional. -->
-    <!--<icon>
-        <image16x16></image16x16>
-        <image32x32></image32x32>
-        <image48x48></image48x48>
-        <image128x128></image128x128>
-    </icon>-->
-    <!--</fileType>-->
-    <!--</fileTypes>-->
-
-    <!-- iOS specific capabilities -->
     <iPhone>
-        <!-- A list of plist key/value pairs to be added to the application Info.plist -->
         <InfoAdditions>
             <![CDATA[
             <key>MinimumOSVersion</key>
             <string>8.0</string>
             <key>UIDeviceFamily</key>
             <array>
-                <!-- iPhone and iPod touch devices -->
                 <string>1</string>
-                <!-- iPad devices -->
                 <string>2</string>
             </array>
-            <!--<key>UIStatusBarStyle</key>-->
-            <!--<string>UIStatusBarStyleBlackOpaque</string>-->
-            <!--<key>UIRequiresPersistentWiFi</key>-->
-            <!--<string>YES</string>-->
+
+
             <key>LSApplicationQueriesSchemes</key>
             <array>
                 <string>fb</string>
@@ -219,6 +64,11 @@
             <dict>
                 <key>NSAllowsArbitraryLoads</key>
                 <true/>
+                <key>NSAllowsArbitraryLoadsInWebContent</key>
+		        <true/>
+                <key>NSAllowsArbitraryLoadsForMedia</key>
+                <true/>
+
                 <key>NSExceptionDomains</key>
                 <dict>
                     <key>localhost</key>
@@ -240,39 +90,32 @@
                 </dict>
             </dict>
 
+            <key>NSCalendarsUsageDescription</key>
+	        <string>Ad networks may require it</string>
+	        <key>NSPhotoLibraryUsageDescription</key>
+	        <string>Ad networks may require it</string>
+	        <key>NSMotionUsageDescription</key>
+	        <string>Some ad content may require access to accelerometer for interactive ad experience</string>
+	        <key>NSCameraUsageDescription</key>
+	        <string>Some ad content may access camera to take picture</string>
             ]]>
         </InfoAdditions>
-
-        <!-- A list of plist key/value pairs to be added to the application Entitlements.plist -->
-        <!--<Entitlements>
-            <![CDATA[
-            <key>keychain-access-groups</key>
-            <array>
-                <string></string>
-                <string></string>
-            </array>
-            ]]>
-        </Entitlements>-->
-
-        <!-- Display Resolution for the app (either "standard" or "high"). Optional. Default "standard" -->
         <requestedDisplayResolution>high</requestedDisplayResolution>
-        <!-- Forcing Render Mode CPU for the devices mentioned. Optional  -->
-        <!--<forceCPURenderModeForDevices></forceCPURenderModeForDevices> -->
-        <!-- File containing line separated list of external swf paths. These swfs won't be packaged inside the application
-        and corresponding stripped swfs will be output in externalStrippedSwfs folder. -->
-        <!--<externalSwfs></externalSwfs> -->
     </iPhone>
 
-    <!-- Android specific tags that get passed to AndroidManifest.xml file. -->
     <android>
         <manifestAdditions>
             <![CDATA[
-            <manifest android:installLocation="auto">
+            <manifest android:installLocation="auto"  >
                 <uses-permission android:name="android.permission.INTERNET"/>
                 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
                 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+                <!-- Tapjoy -->
                 <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-                <application android:enabled="true">
+                <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+                <application android:enabled="true" >
 
                 <meta-data android:value="true" android:name="ADMOB_ALLOW_LOCATION_FOR_ADS" />
 
@@ -291,8 +134,12 @@
                 <activity android:name="com.tapdaq.sdk.TMTestNativeActivity"/>
                 <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:theme="@android:style/Theme.Translucent"/>
 
+
                 <!-- Cross Promo -->
                 <activity android:name="com.tapdaq.sdk.TMInterstitialActivity" />
+
+                <!-- More Apps -->
+                <activity android:name="com.tapdaq.sdk.TMMoreAppsActivity"/>
 
                 <!-- AdColony Adapter -->
                 <activity android:name="com.adcolony.sdk.AdColonyInterstitialActivity"
@@ -317,6 +164,7 @@
 
                 <!-- Facebook Adapter -->
                 <activity android:name="com.facebook.ads.InterstitialAdActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+                <activity android:name="com.facebook.ads.AudienceNetworkActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
 
                 <!-- IronSource -->
                 <activity
@@ -334,23 +182,48 @@
                     android:hardwareAccelerated="true"
                     android:theme="@android:style/Theme.Translucent" />
 
+
+                 <!-- MoPub Adapter -->
+                <activity android:name="com.mopub.mobileads.MoPubActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+                <activity android:name="com.mopub.mobileads.MraidActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+                <activity android:name="com.mopub.common.MoPubBrowser" android:configChanges="keyboardHidden|orientation|screenSize"/>
+                <activity android:name="com.mopub.mobileads.MraidVideoPlayerActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+                <activity android:name="com.mopub.mobileads.RewardedMraidActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+
+                <!-- Receptiv Adapter -->
+                <activity
+                    android:name="com.mediabrix.android.service.AdViewActivity"
+                    android:configChanges="orientation|screenSize|keyboard"
+                    android:hardwareAccelerated="true"
+                    android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+                </activity>
+                <activity
+                    android:name="com.mediabrix.android.service.ClickOutActivity"
+                    android:configChanges="orientation|screenSize|keyboard"
+                    android:hardwareAccelerated="true"
+                    android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+                </activity>
+                <service
+                    android:name="com.mediabrix.android.service.MediaBrixService" >
+                </service>
+
                 <!-- Tapjoy Adapter -->
                 <activity
-                    android:name="com.tapjoy.TJAdUnitActivity"
-                    android:configChanges="orientation|keyboardHidden|screenSize"
-                    android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
-                    android:hardwareAccelerated="true" />
-                <activity
-                    android:name="com.tapjoy.mraid.view.ActionHandler"
-                    android:configChanges="orientation|keyboardHidden|screenSize" />
-                <activity
-                    android:name="com.tapjoy.mraid.view.Browser"
-                    android:configChanges="orientation|keyboardHidden|screenSize" />
-
-                <activity
-                    android:name="com.tapjoy.TJContentActivity"
-                    android:configChanges="orientation|keyboardHidden|screenSize"
-                    android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+  android:name="com.tapjoy.TJAdUnitActivity"
+  android:configChanges="orientation|keyboardHidden|screenSize"
+  android:hardwareAccelerated="true"
+  android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+<activity
+  android:name="com.tapjoy.mraid.view.ActionHandler"
+  android:configChanges="orientation|keyboardHidden|screenSize" />
+<activity
+  android:name="com.tapjoy.mraid.view.Browser"
+  android:configChanges="orientation|keyboardHidden|screenSize" />
+<activity
+  android:name="com.tapjoy.TJContentActivity"
+  android:configChanges="orientation|keyboardHidden|screenSize"
+  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+  android:hardwareAccelerated="true" />
 
                 <!-- Unity Ads Adapter -->
                 <activity
@@ -367,15 +240,55 @@
                 <activity android:name="com.vungle.publisher.MraidFullScreenAdActivity"
                     android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
                     android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+
+
+ <!-- HyprMX Adapter -->
+    <activity android:name="com.tapdaq.adapters.TMHyprMXActivity"/>
+    <activity
+        android:name="com.hyprmx.android.sdk.activity.HyprMXOfferViewerActivity"
+        android:hardwareAccelerated="true"
+        android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+        android:label="HyprMX SDK"
+        android:launchMode="singleTop"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+    <activity
+        android:name="com.hyprmx.android.sdk.activity.HyprMXRequiredInformationActivity"
+        android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+    <activity
+        android:name="com.hyprmx.android.sdk.activity.HyprMXNoOffersActivity"
+        android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+    <activity
+        android:name="com.hyprmx.android.sdk.videoplayer.HyprMXVideoPlayerActivity"
+        android:hardwareAccelerated="true"
+        android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+
+
+ <!-- InMobi -->
+    <activity
+        android:name="com.inmobi.rendering.InMobiAdActivity"
+        android:configChanges="keyboardHidden|orientation|keyboard|smallestScreenSize|screenSize|screenLayout"
+        android:hardwareAccelerated="true"
+        android:resizeableActivity="false"
+        android:theme="@android:style/Theme.NoTitleBar"
+         />
+
+    <receiver
+        android:name="com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver"
+        android:enabled="true"
+        android:exported="true"
+        >
+        <intent-filter>
+            <action android:name="com.inmobi.share.id"/>
+        </intent-filter>
+     </receiver>
+
+
                 </application>
             </manifest>
             ]]>
-            </manifestAdditions>
-
-        <!-- Color depth for the app (either "32bit" or "16bit"). Optional. Default 16bit before namespace 3.0, 32bit after -->
-        <!--<colorDepth></colorDepth>-->
-        <!-- Indicates if the app contains video or not. Necessary for ordering of video planes with graphics plane, especially in Jellybean - if you app does video this must be set to true - valid values are true or false -->
-        <!-- <containsVideo></containsVideo> -->
+        </manifestAdditions>
     </android>
-
 </application>
