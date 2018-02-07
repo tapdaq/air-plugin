@@ -7,7 +7,7 @@ As of v2.0.1 the source code is now public in this repository, development of th
 See our [quickstart](https://github.com/tapdaq/air-plugin/wiki/Quickstart) guide for instructions on how to integrate the SDK.
 
 ## Development
-Details of how to build/change/update the plugin are within [Source/README.md](https://github.com/tapdaq/air-plugin/Source/README.md)
+Details of how to build/change/update the plugin are within Source/README.md
 
 ## Contributing
 We recommend a GitFlow approach to this, develop, master & release branches exist for stable/development code. Individual commits will not be reviewed by Tapdaq but will be monitored periodically.
