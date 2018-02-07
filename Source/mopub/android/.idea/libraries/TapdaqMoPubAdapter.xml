@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TapdaqMoPubAdapter">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/libs/TapdaqMoPubAdapter.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

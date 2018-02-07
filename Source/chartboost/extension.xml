@@ -1,0 +1,26 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+    <id>com.tapdaq.airsdk.chartboost</id>
+    <versionNumber>1.0</versionNumber>
+
+    <platforms>
+        <platform name="Android-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libtapdaqchartboost.jar</nativeLibrary>
+                <initializer>com.tapdaq.airsdk.chartboost.Extension</initializer>
+                <finalizer>com.tapdaq.airsdk.chartboost.Extension</finalizer>
+            </applicationDeployment>
+        </platform>
+
+        <platform name="iPhone-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libTapdaqChartboost.a</nativeLibrary>
+                <initializer>TapdaqChartboostExtensionInitializer</initializer>
+                <finalizer>TapdaqChartboostExtensionFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+
+        <platform name="default">
+            <applicationDeployment />
+        </platform>
+    </platforms>
+</extension>

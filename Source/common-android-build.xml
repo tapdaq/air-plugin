@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Tapdaq ANE Android Common Build Script" default="all">
+
+     <record name="build.log" loglevel="verbose" action="start" />
+
+    <!-- Config File -->
+    <property file="build.config"/>
+
+    <target name="build" description="Build Android Library">
+        <!-- Classpaths for external libraries in lib directory -->
+        <path id="classpath">
+            <file file="${air.sdk}/lib/android/FlashRuntimeExtensions.jar"/>
+            <file file="${air.sdk}/lib/android/lib/runtimeClasses.jar"/>
+            <fileset dir="${android.sdk}/platforms/android-${android.platform.version}" includes="android.jar" />
+            <fileset dir="libs" casesensitive="yes">
+                <include name="**/*.jar"/>
+            </fileset>
+        </path>
+
+        <mkdir dir="${build.dir}/"/>
+        <mkdir dir="${output.dir}/"/>
+
+        <!-- Compile all Java classes in source directory -->
+        <javac
+            srcdir="${src.dir}"
+            destdir="${build.dir}"
+            classpathref="classpath"
+            includeantruntime="false"
+            failonerror="true"
+            target="1.6"
+            source="1.6"
+        />
+
+        <!-- Package compile class files into jar -->
+        <jar jarfile="${output.dir}/${output.name}" basedir="${build.dir}" />
+
+        <zip destfile="${output.dir}/${libs.jar.name}.jar">
+          <zipgroupfileset dir="libs" includes="*.jar"/>
+        </zip>
+
+        <!-- Copy over files to Android output directory -->
+        <copy todir="${output.dir}" failonerror="true">
+            <!-- Copy all resources from resources folder -->
+            <fileset dir="res" erroronmissingdir="false"/>
+            <!-- Copy over platform.xml -->
+            <file file="platform.xml" />
+        </copy>
+
+        <!-- Copy over native libs to Android output directory -->
+        <copy todir="${output.dir}/libs" failonerror="true">
+            <fileset dir="native-libs" erroronmissingdir="false"/>
+        </copy>
+
+    </target>
+
+    <target name="clean">
+        <delete dir="${build.dir}" />
+        <delete dir="${output.dir}" />
+        <delete file="build.log" />
+    </target>
+
+    <target name="all" depends="clean, build" />
+
+</project>

@@ -1,0 +1,15 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+    <sdkVersion>11.0</sdkVersion>
+
+    <linkerOptions>
+        <option>-ios_version_min 8.0</option>
+        <option>-rpath @executable_path/Frameworks</option>
+
+        <option>-lxml2</option>
+
+    </linkerOptions>
+
+    <packagedDependencies>
+      <packagedDependency>Frameworks/HyprMXAdapter.framework</packagedDependency>
+    </packagedDependencies>
+</platform>

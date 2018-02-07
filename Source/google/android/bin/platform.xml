@@ -1,0 +1,30 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+
+  <packagedDependencies>
+    <packagedDependency>google-dependencies.jar</packagedDependency>
+  </packagedDependencies>
+
+  <packagedResources>
+    <packagedResource>
+      <packageName>com.google.android.gms.ads</packageName>
+      <folderName>play-services-ads-10.2.0</folderName>
+    </packagedResource>
+    <packagedResource>
+      <packageName>com.google.android.gms.ads</packageName>
+      <folderName>play-services-ads-lite-10.2.0</folderName>
+    </packagedResource>
+    <packagedResource>
+      <packageName>com.google.android.gms</packageName>
+      <folderName>play-services-base-10.2.0</folderName>
+    </packagedResource>
+    <packagedResource>
+      <packageName>com.android.support</packageName>
+      <folderName>recyclerview-v7-25.3.1</folderName>
+    </packagedResource>
+    <packagedResource>
+      <packageName>com.google.android.gms</packageName>
+      <folderName>play-services-basement-10.2.0</folderName>
+    </packagedResource>
+  </packagedResources>
+
+</platform>

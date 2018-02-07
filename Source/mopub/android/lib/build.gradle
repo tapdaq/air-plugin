@@ -1,0 +1,20 @@
+apply plugin: 'com.android.library'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile('com.mopub:mopub-sdk:4.18.0@aar'){transitive=true}
+    compile('com.mopub:mopub-sdk-banner:4.18.0@aar'){transitive=true}
+    compile('com.mopub:mopub-sdk-interstitial:4.18.0@aar'){transitive=true}
+    compile('com.mopub:mopub-sdk-rewardedvideo:4.18.0@aar'){transitive=true}
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.3'
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 22
+    }
+}

@@ -1,0 +1,221 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="354205"/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="com/tapdaq/airsdk/Banner" mod="1512657453000">
+                <def id="com.tapdaq.airsdk:Banner"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.tapdaq.airsdk.model:TapdaqEvent" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="s"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <script name="com/tapdaq/airsdk/MoreApps" mod="1512657453000">
+                <def id="com.tapdaq.airsdk:MoreApps"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="com.tapdaq.airsdk.model:TapdaqEvent" type="e"/>
+                <dep id="com.tapdaq.airsdk.model.config:MoreAppsConfig" type="s"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="s"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <script name="com/tapdaq/airsdk/Offerwall" mod="1512657453000">
+                <def id="com.tapdaq.airsdk:Offerwall"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="com.tapdaq.airsdk.model:TapdaqEvent" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="s"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <script name="com/tapdaq/airsdk/Tapdaq" mod="1512669101000">
+                <def id="com.tapdaq.airsdk:Tapdaq"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Class" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.tapdaq.airsdk.model:PlacementTag" type="e"/>
+                <dep id="com.tapdaq.airsdk.model:TapdaqEvent" type="e"/>
+                <dep id="com.tapdaq.airsdk.model:TapdaqNativeAd" type="e"/>
+                <dep id="com.tapdaq.airsdk.model.VOs:TapdaqAdError" type="e"/>
+                <dep id="com.tapdaq.airsdk.model.config:TapdaqConfig" type="s"/>
+                <dep id="com.tapdaq.airsdk.model.enums:TapdaqAdType" type="s"/>
+                <dep id="com.tapdaq.airsdk.model.enums:TapdaqCreativeType" type="s"/>
+                <dep id="com.tapdaq.airsdk.model.events:TapdaqAdEvent" type="e"/>
+                <dep id="com.tapdaq.airsdk.model.events:TapdaqNativeAdDataEvent" type="e"/>
+                <dep id="com.tapdaq.airsdk.model.events:TapdaqNativeAdEvent" type="e"/>
+                <dep id="com.tapdaq.airsdk.model.events:TapdaqVerifyAdEvent" type="e"/>
+                <dep id="com.tapdaq.airsdk.utils:Utils" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="s"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.system:Capabilities" type="e"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <script name="com/tapdaq/airsdk/model/AdNetworks" mod="1512657453000">
+                <def id="com.tapdaq.airsdk.model:AdNetworks"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/tapdaq/airsdk/model/Placement" mod="1512657453000">
+                <def id="com.tapdaq.airsdk.model:Placement"/>
+                <dep id="Array" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.tapdaq.airsdk.model:PlacementTag" type="e"/>
+            </script>
+            <script name="com/tapdaq/airsdk/model/PlacementTag" mod="1512657453000">
+                <def id="com.tapdaq.airsdk.model:PlacementTag"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/tapdaq/airsdk/model/TapdaqEvent" mod="1512657453000">
+                <def id="com.tapdaq.airsdk.model:TapdaqEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.tapdaq.airsdk.utils:Utils" type="e"/>
+                <dep id="flash.events:StatusEvent" type="i"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <script name="com/tapdaq/airsdk/model/TapdaqNativeAd" mod="1512657453000">
+                <def id="com.tapdaq.airsdk.model:TapdaqNativeAd"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.tapdaq.airsdk:Tapdaq" type="e"/>
+            </script>
+            <script name="com/tapdaq/airsdk/model/VOs/TapdaqAdError" mod="1512657453000">
+                <def id="com.tapdaq.airsdk.model.VOs:TapdaqAdError"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/tapdaq/airsdk/model/VOs/TapdaqBannerLayout" mod="1512657453000">
+                <def id="com.tapdaq.airsdk.model.VOs:TapdaqBannerLayout"/>
+                <dep id="Object" type="i"/>
+                <dep id="com.tapdaq.airsdk.model.enums:TapdaqHAlign" type="e"/>
+                <dep id="com.tapdaq.airsdk.model.enums:TapdaqVAlign" type="e"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/tapdaq/airsdk/model/VOs/TapdaqVerificationData" mod="1512657453000">
+                <def id="com.tapdaq.airsdk.model.VOs:TapdaqVerificationData"/>
+                <dep id="Number" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/tapdaq/airsdk/model/config/MoreAppsConfig" mod="1512657453000">
+                <def id="com.tapdaq.airsdk.model.config:MoreAppsConfig"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="uint" type="s"/>
+            </script>
+            <script name="com/tapdaq/airsdk/model/config/TapdaqConfig" mod="1512669101000">
+                <def id="com.tapdaq.airsdk.model.config:TapdaqConfig"/>
+                <dep id="Array" type="s"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.utils:Dictionary" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/tapdaq/airsdk/model/enums/TapdaqAdType" mod="1512657453000">
+                <def id="com.tapdaq.airsdk.model.enums:TapdaqAdType"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/tapdaq/airsdk/model/enums/TapdaqCreativeType" mod="1512657453000">
+                <def id="com.tapdaq.airsdk.model.enums:TapdaqCreativeType"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/tapdaq/airsdk/model/enums/TapdaqHAlign" mod="1512657453000">
+                <def id="com.tapdaq.airsdk.model.enums:TapdaqHAlign"/>
+                <dep id="Class" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Object" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/tapdaq/airsdk/model/enums/TapdaqVAlign" mod="1512657453000">
+                <def id="com.tapdaq.airsdk.model.enums:TapdaqVAlign"/>
+                <dep id="Class" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Object" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/tapdaq/airsdk/model/events/TapdaqAdEvent" mod="1512657453000">
+                <def id="com.tapdaq.airsdk.model.events:TapdaqAdEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.tapdaq.airsdk.model.VOs:TapdaqAdError" type="s"/>
+                <dep id="com.tapdaq.airsdk.model.enums:TapdaqAdType" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/tapdaq/airsdk/model/events/TapdaqNativeAdDataEvent" mod="1512657453000">
+                <def id="com.tapdaq.airsdk.model.events:TapdaqNativeAdDataEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.tapdaq.airsdk.model:TapdaqNativeAd" type="s"/>
+                <dep id="com.tapdaq.airsdk.model.events:TapdaqNativeAdEvent" type="i"/>
+            </script>
+            <script name="com/tapdaq/airsdk/model/events/TapdaqNativeAdEvent" mod="1512657453000">
+                <def id="com.tapdaq.airsdk.model.events:TapdaqNativeAdEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.tapdaq.airsdk.model.VOs:TapdaqAdError" type="s"/>
+                <dep id="com.tapdaq.airsdk.model.enums:TapdaqAdType" type="e"/>
+                <dep id="com.tapdaq.airsdk.model.enums:TapdaqCreativeType" type="s"/>
+                <dep id="com.tapdaq.airsdk.model.events:TapdaqAdEvent" type="i"/>
+            </script>
+            <script name="com/tapdaq/airsdk/model/events/TapdaqVerifyAdEvent" mod="1512657453000">
+                <def id="com.tapdaq.airsdk.model.events:TapdaqVerifyAdEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Number" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.tapdaq.airsdk.model.VOs:TapdaqAdError" type="s"/>
+                <dep id="com.tapdaq.airsdk.model.enums:TapdaqAdType" type="s"/>
+                <dep id="com.tapdaq.airsdk.model.events:TapdaqAdEvent" type="i"/>
+            </script>
+            <script name="com/tapdaq/airsdk/utils/Utils" mod="1512657453000">
+                <def id="com.tapdaq.airsdk.utils:Utils"/>
+                <dep id="Array" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Namespace" type="e"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="XML" type="e"/>
+                <dep id="com.tapdaq.airsdk.model:Placement" type="e"/>
+                <dep id="com.tapdaq.airsdk.model.VOs:TapdaqAdError" type="e"/>
+                <dep id="com.tapdaq.airsdk.model.VOs:TapdaqVerificationData" type="e"/>
+                <dep id="com.tapdaq.airsdk.model.enums:TapdaqCreativeType" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="e"/>
+                <dep id="flash.filesystem:FileMode" type="e"/>
+                <dep id="flash.filesystem:FileStream" type="e"/>
+                <dep id="flash.utils:Dictionary" type="s"/>
+                <dep id="int" type="e"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="1f9d9d2d18c48db0c7e9129f4e708bbce76853b7cd4401a1e012e089686443e9"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>

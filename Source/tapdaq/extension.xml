@@ -1,0 +1,26 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+    <id>com.tapdaq.airsdk</id>
+    <versionNumber>2.0.0</versionNumber>
+
+    <platforms>
+        <platform name="Android-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libtapdaq.jar</nativeLibrary>
+                <initializer>com.tapdaq.airsdk.Extension</initializer>
+                <finalizer>com.tapdaq.airsdk.Extension</finalizer>
+            </applicationDeployment>
+        </platform>
+
+        <platform name="iPhone-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libTapdaq.a</nativeLibrary>
+                <initializer>ExtensionInitializer</initializer>
+                <finalizer>ExtensionFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+
+        <platform name="default">
+            <applicationDeployment />
+        </platform>
+    </platforms>
+</extension>

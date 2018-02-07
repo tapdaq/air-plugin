@@ -1,0 +1,29 @@
+dependencies: \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/src/TapdaqLib.m \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/includes/TapdaqLib.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Modules/module.modulemap \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDMoreAppsConfig.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDResolutionEnum.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDAspectRatio.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDInterstitialAdvert.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDCreative.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDAdvert.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDNativeAdvert.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDLogLevel.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDTestDevices.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDPlacement.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDProperties.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDReward.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDMBannerSizeEnum.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDMNetworkEnum.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDNativeAdTypeEnum.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDAdTypeEnum.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDNativeAdSizeEnum.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDNativeAdUnitEnum.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TDOrientationEnum.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TapdaqMain.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/Tapdaq.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/includes/FPANEUtils.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/includes/FlashRuntimeExtensions.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/includes/FREConversionUtil.h \
+  /Volumes/Samsung_T5/Repositories/Tapdaq/air-extension/tapdaq/ios/src/JsonHelper.h

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application xmlns="http://ns.adobe.com/air/application/27.0">
+    <id>com.tapdaq.airsample</id>
+    <filename>Tapdaq</filename>
+    <name>Tapdaq Air</name>
+    <versionNumber>1.1.9</versionNumber>
+    <extensions>
+        <extensionID>com.tapdaq.airsdk</extensionID>
+        <extensionID>com.tapdaq.airsdk.google</extensionID>
+        <extensionID>com.tapdaq.airsdk.adcolony</extensionID>
+        <extensionID>com.tapdaq.airsdk.admob</extensionID>
+        <extensionID>com.tapdaq.airsdk.applovin</extensionID>
+        <extensionID>com.tapdaq.airsdk.chartboost</extensionID>
+        <extensionID>com.tapdaq.airsdk.fan</extensionID>
+        <extensionID>com.tapdaq.airsdk.hyprmx</extensionID>
+        <extensionID>com.tapdaq.airsdk.inmobi</extensionID>
+        <extensionID>com.tapdaq.airsdk.ironsource</extensionID>
+        <extensionID>com.tapdaq.airsdk.mopub</extensionID>
+        <extensionID>com.tapdaq.airsdk.receptiv</extensionID>
+        <extensionID>com.tapdaq.airsdk.tapjoy</extensionID>
+        <extensionID>com.tapdaq.airsdk.unity</extensionID>
+        <extensionID>com.tapdaq.airsdk.vungle</extensionID>
+
+
+    </extensions>
+
+    <initialWindow>
+        <content></content>
+        <visible>true</visible>
+        <aspectRatio>portrait</aspectRatio>
+        <autoOrients>false</autoOrients>
+        <fullScreen>true</fullScreen>
+        <renderMode>direct</renderMode>
+        <depthAndStencil>true</depthAndStencil>
+    </initialWindow>
+    
+    <icon>
+        <image72x72>Icon72.png</image72x72>
+        <image76x76>Icon76.png</image76x76>
+        <image120x120>Icon120.png</image120x120>
+        <image152x152>Icon152.png</image152x152>
+    </icon>
+
+    <iPhone>
+        <InfoAdditions>
+            <![CDATA[
+            <key>MinimumOSVersion</key>
+            <string>8.0</string>
+            <key>UIDeviceFamily</key>
+            <array>
+                <string>1</string>
+                <string>2</string>
+            </array>
+
+
+            <key>LSApplicationQueriesSchemes</key>
+            <array>
+                <string>fb</string>
+                <string>instagram</string>
+                <string>tumblr</string>
+                <string>twitter</string>
+            </array>
+            <key>NSAppTransportSecurity</key>
+            <dict>
+                <key>NSAllowsArbitraryLoads</key>
+                <true/>
+                <key>NSAllowsArbitraryLoadsInWebContent</key>
+		        <true/>
+                <key>NSAllowsArbitraryLoadsForMedia</key>
+                <true/>
+
+                <key>NSExceptionDomains</key>
+                <dict>
+                    <key>localhost</key>
+                    <dict>
+                        <key>NSIncludesSubdomains</key>
+                        <true/>
+                        <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                        <true/>
+                    </dict>
+                    <key>test-ads.tapdaq.com</key>
+                    <dict>
+                        <key>NSIncludesSubdomains</key>
+                        <true/>
+                        <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                        <true/>
+                        <key>NSTemporaryExceptionMinimumTLSVersion</key>
+                        <string>TLSv1.1</string>
+                    </dict>
+                </dict>
+            </dict>
+
+            <key>NSCalendarsUsageDescription</key>
+	        <string>Ad networks may require it</string>
+	        <key>NSPhotoLibraryUsageDescription</key>
+	        <string>Ad networks may require it</string>
+	        <key>NSMotionUsageDescription</key>
+	        <string>Some ad content may require access to accelerometer for interactive ad experience</string>
+	        <key>NSCameraUsageDescription</key>
+	        <string>Some ad content may access camera to take picture</string>
+            ]]>
+        </InfoAdditions>
+        <requestedDisplayResolution>high</requestedDisplayResolution>
+    </iPhone>
+
+    <android>
+        <manifestAdditions>
+            <![CDATA[
+            <manifest android:installLocation="auto"  >
+                <uses-permission android:name="android.permission.INTERNET"/>
+                <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+                <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+                <!-- Tapjoy -->
+                <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+                <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+                <application android:enabled="true" >
+
+                <meta-data android:value="true" android:name="ADMOB_ALLOW_LOCATION_FOR_ADS" />
+
+                <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+
+
+                <activity android:excludeFromRecents="false">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                        <category android:name="android.intent.category.LAUNCHER"/>
+                    </intent-filter>
+                </activity>
+
+                <!-- Debug Views -->
+                <activity android:name="com.tapdaq.sdk.TMTestActivity" />
+                <activity android:name="com.tapdaq.sdk.TMTestNativeActivity"/>
+                <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:theme="@android:style/Theme.Translucent"/>
+
+
+                <!-- Cross Promo -->
+                <activity android:name="com.tapdaq.sdk.TMInterstitialActivity" />
+
+                <!-- More Apps -->
+                <activity android:name="com.tapdaq.sdk.TMMoreAppsActivity"/>
+
+                <!-- AdColony Adapter -->
+                <activity android:name="com.adcolony.sdk.AdColonyInterstitialActivity"
+                    android:configChanges="keyboardHidden|orientation|screenSize"
+                    android:hardwareAccelerated="true"/>
+
+                <activity android:name="com.adcolony.sdk.AdColonyAdViewActivity"
+                    android:configChanges="keyboardHidden|orientation|screenSize"
+                    android:hardwareAccelerated="true"/>
+
+                <!-- Applovin Adapter -->
+                <activity android:name="com.applovin.adview.AppLovinInterstitialActivity" />
+                <activity android:name="com.applovin.adview.AppLovinConfirmationActivity" />
+
+                <!-- Chartboost Adapter -->
+                <activity
+                    android:name="com.chartboost.sdk.CBImpressionActivity"
+                    android:configChanges="keyboardHidden|orientation|screenSize"
+                    android:excludeFromRecents="true"
+                    android:hardwareAccelerated="true"
+                    android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+
+                <!-- Facebook Adapter -->
+                <activity android:name="com.facebook.ads.InterstitialAdActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+                <activity android:name="com.facebook.ads.AudienceNetworkActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+
+                <!-- IronSource -->
+                <activity
+                    android:name="com.ironsource.sdk.controller.ControllerActivity"
+                    android:configChanges="orientation|screenSize"
+                    android:hardwareAccelerated="true" />
+                <activity
+                    android:name="com.ironsource.sdk.controller.InterstitialActivity"
+                    android:configChanges="orientation|screenSize"
+                    android:hardwareAccelerated="true"
+                    android:theme="@android:style/Theme.Translucent" />
+                <activity
+                    android:name="com.ironsource.sdk.controller.OpenUrlActivity"
+                    android:configChanges="orientation|screenSize"
+                    android:hardwareAccelerated="true"
+                    android:theme="@android:style/Theme.Translucent" />
+
+
+                 <!-- MoPub Adapter -->
+                <activity android:name="com.mopub.mobileads.MoPubActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+                <activity android:name="com.mopub.mobileads.MraidActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+                <activity android:name="com.mopub.common.MoPubBrowser" android:configChanges="keyboardHidden|orientation|screenSize"/>
+                <activity android:name="com.mopub.mobileads.MraidVideoPlayerActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+                <activity android:name="com.mopub.mobileads.RewardedMraidActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+
+                <!-- Receptiv Adapter -->
+                <activity
+                    android:name="com.mediabrix.android.service.AdViewActivity"
+                    android:configChanges="orientation|screenSize|keyboard"
+                    android:hardwareAccelerated="true"
+                    android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+                </activity>
+                <activity
+                    android:name="com.mediabrix.android.service.ClickOutActivity"
+                    android:configChanges="orientation|screenSize|keyboard"
+                    android:hardwareAccelerated="true"
+                    android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+                </activity>
+                <service
+                    android:name="com.mediabrix.android.service.MediaBrixService" >
+                </service>
+
+                <!-- Tapjoy Adapter -->
+                <activity
+  android:name="com.tapjoy.TJAdUnitActivity"
+  android:configChanges="orientation|keyboardHidden|screenSize"
+  android:hardwareAccelerated="true"
+  android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+<activity
+  android:name="com.tapjoy.mraid.view.ActionHandler"
+  android:configChanges="orientation|keyboardHidden|screenSize" />
+<activity
+  android:name="com.tapjoy.mraid.view.Browser"
+  android:configChanges="orientation|keyboardHidden|screenSize" />
+<activity
+  android:name="com.tapjoy.TJContentActivity"
+  android:configChanges="orientation|keyboardHidden|screenSize"
+  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+  android:hardwareAccelerated="true" />
+
+                <!-- Unity Ads Adapter -->
+                <activity
+                    android:name="com.unity3d.ads.adunit.AdUnitActivity"
+                    android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+                <activity
+                    android:name="com.unity3d.ads.adunit.AdUnitSoftwareActivity"
+                    android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+
+                <!-- Vungle Adapter -->
+                <activity android:name="com.vungle.publisher.VideoFullScreenAdActivity"
+                    android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+                    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+                <activity android:name="com.vungle.publisher.MraidFullScreenAdActivity"
+                    android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+                    android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+
+
+ <!-- HyprMX Adapter -->
+    <activity android:name="com.tapdaq.adapters.TMHyprMXActivity"/>
+    <activity
+        android:name="com.hyprmx.android.sdk.activity.HyprMXOfferViewerActivity"
+        android:hardwareAccelerated="true"
+        android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+        android:label="HyprMX SDK"
+        android:launchMode="singleTop"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+    <activity
+        android:name="com.hyprmx.android.sdk.activity.HyprMXRequiredInformationActivity"
+        android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+    <activity
+        android:name="com.hyprmx.android.sdk.activity.HyprMXNoOffersActivity"
+        android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+    <activity
+        android:name="com.hyprmx.android.sdk.videoplayer.HyprMXVideoPlayerActivity"
+        android:hardwareAccelerated="true"
+        android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+
+
+ <!-- InMobi -->
+    <activity
+        android:name="com.inmobi.rendering.InMobiAdActivity"
+        android:configChanges="keyboardHidden|orientation|keyboard|smallestScreenSize|screenSize|screenLayout"
+        android:hardwareAccelerated="true"
+        android:resizeableActivity="false"
+        android:theme="@android:style/Theme.NoTitleBar"
+         />
+
+    <receiver
+        android:name="com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver"
+        android:enabled="true"
+        android:exported="true"
+        >
+        <intent-filter>
+            <action android:name="com.inmobi.share.id"/>
+        </intent-filter>
+     </receiver>
+
+
+                </application>
+            </manifest>
+            ]]>
+        </manifestAdditions>
+    </android>
+</application>

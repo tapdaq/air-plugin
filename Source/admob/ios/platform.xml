@@ -1,0 +1,27 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+    <sdkVersion>11.0</sdkVersion>
+
+    <linkerOptions>
+        <option>-ios_version_min 8.0</option>
+        <option>-rpath @executable_path/Frameworks</option>
+        <option>-framework Foundation</option>
+        <option>-framework AdSupport</option>
+        <option>-framework StoreKit</option>
+        <option>-framework AVFoundation</option>
+        <option>-framework CoreMedia</option>
+        <option>-framework SystemConfiguration</option>
+        <option>-framework MessageUI</option>
+        <option>-framework AudioToolbox</option>
+        <option>-framework CoreTelephony</option>
+        <option>-framework CoreGraphics</option>
+        <option>-framework CoreBluetooth</option>
+        <option>-framework EventKit</option>
+        <option>-framework EventKitUI</option>
+        <option>-framework GLKit</option>
+
+    </linkerOptions>
+
+    <packagedDependencies>
+      <packagedDependency>Frameworks/AdMobAdapter.framework</packagedDependency>
+    </packagedDependencies>
+</platform>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="354204"/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="com/tapdaq/airsdk/google/Stub" mod="1507901262000">
+                <def id="com.tapdaq.airsdk.google:Stub"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="01b400c0b67546a20abd86aaa13a6dbbf29dd614dabddfe1045daa8494d55a73"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>

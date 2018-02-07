@@ -1,0 +1,20 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+    <packagedDependencies>
+        <packagedDependency>TapdaqMoPubAdapter.jar</packagedDependency>
+
+        <packagedDependency>moat-mobile-app-kit-2.1.0.jar</packagedDependency>
+        <packagedDependency>mopub-sdk-4.18.0.jar</packagedDependency>
+        <packagedDependency>mopub-sdk-banner-4.18.0.jar</packagedDependency>
+        <packagedDependency>mopub-sdk-base-4.18.0.jar</packagedDependency>
+        <packagedDependency>mopub-sdk-interstitial-4.18.0.jar</packagedDependency>
+        <packagedDependency>mopub-sdk-native-static-4.18.0.jar</packagedDependency>
+        <packagedDependency>mopub-sdk-native-video-4.18.0.jar</packagedDependency>
+        <packagedDependency>mopub-sdk-rewardedvideo-4.18.0.jar</packagedDependency>
+
+        <packagedDependency>libAvid-mopub-3.6.4.jar</packagedDependency>
+        <packagedDependency>mopub-volley-1.1.0.jar</packagedDependency>
+
+    </packagedDependencies>
+    <packagedResources>
+</packagedResources>
+</platform>
