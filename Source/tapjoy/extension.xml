@@ -1,0 +1,27 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+  <id>com.tapdaq.airsdk.tapjoy</id>
+  <versionNumber>1.0.0</versionNumber>
+  <platforms>
+
+    <platform name="Android-ARM">
+        <applicationDeployment>
+            <nativeLibrary>libtapdaqtapjoy.jar</nativeLibrary>
+            <initializer>com.tapdaq.airsdk.tapjoy.Extension</initializer>
+            <finalizer>com.tapdaq.airsdk.tapjoy.Extension</finalizer>
+        </applicationDeployment>
+    </platform>
+
+    <platform name="iPhone-ARM">
+        <applicationDeployment>
+            <nativeLibrary>libTapdaqTapjoy.a</nativeLibrary>
+            <initializer>TapdaqTapjoyExtensionInitializer</initializer>
+            <finalizer>TapdaqTapjoyExtensionFinalizer</finalizer>
+        </applicationDeployment>
+    </platform>
+
+    <platform name="default">
+        <applicationDeployment/>
+    </platform>
+
+  </platforms>
+</extension>

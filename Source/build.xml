@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="AIR SDK Build Script" default="all">
+
+  <property file="build.config"/>
+
+  <record name="build.log" loglevel="verbose" action="start" />
+
+
+  <taskdef resource="net/sf/antcontrib/antcontrib.properties">
+    <classpath>
+      <pathelement location="ant-contrib-0.6.jar"/>
+    </classpath>
+  </taskdef>
+
+    <macrodef name="platforms" description="Run Ant on all Platforms">
+        <attribute name="target" default="all"/>
+        <sequential>
+            <subant inheritall="false" target="@{target}">
+                <fileset dir="." includes="*/build.xml"/>
+            </subant>
+        </sequential>
+    </macrodef>
+
+    <target name="build" description="Build on all platforms.">
+        <platforms target="all"/>
+    </target>
+
+    <target name="clean">
+        <delete dir="${output.dir}" />
+        <delete file="build.log" />
+    </target>
+
+<target name="copy" description="Copy created ANEs">
+  <mkdir dir="${output.dir}" />
+  <mkdir dir="${output.dir}/anes" />
+  <mkdir dir="${output.dir}/resources" />
+  <mkdir dir="${output.dir}/resources/Frameworks" />
+
+  <copy todir="${output.dir}/anes" flatten="true">
+       <fileset dir=".">
+         <include name='**/bin/*.ane' />
+       </fileset>
+ </copy>
+
+
+ <foreach target="copyFolder" param="copy.folder.name">
+         <path>
+             <dirset dir=".">
+                 <include name="**/ios/sharedframeworks" />
+             </dirset>
+         </path>
+     </foreach>
+
+
+</target>
+
+
+<target name="copyFolder">
+    <echo>${copy.folder.name}</echo>
+
+    <copy todir="${output.dir}/resources/Frameworks">
+      <fileset dir="${copy.folder.name}"/>
+    </copy>
+
+</target>
+
+  <target name="all" depends="clean, build, copy" />
+
+</project>

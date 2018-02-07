@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Common ANE Build Script" default="all">
+
+  <taskdef resource="net/sf/antcontrib/antcontrib.properties">
+    <classpath>
+      <pathelement location="../ant-contrib-0.6.jar"/>
+    </classpath>
+  </taskdef>
+
+  <property environment="env"/>
+  <condition property="air.sdk" value="${env.AIR_SDK}">
+        <isset property="env.AIR_SDK"/>
+  </condition>
+  <condition property="android.sdk" value="${env.ANDROID_SDK}">
+        <isset property="env.ANDROID_SDK"/>
+  </condition>
+
+    <property file="../common-build.config"/>
+    <record name="build.log" loglevel="verbose" action="start" />
+
+    <macrodef name="platforms" description="Run Ant on all Platforms">
+        <attribute name="target" default="all"/>
+
+        <sequential>
+            <subant inheritall="false" target="@{target}">
+                <property name="output.dir" value="${output.dir}" />
+                <property name="air.sdk" value="${air.sdk}" />
+                <property name="android.sdk" value="${android.sdk}" />
+                <property name="android.platform.version" value="${android.platform.version}" />
+                <fileset dir="." includes="*/build.xml"/>
+            </subant>
+        </sequential>
+    </macrodef>
+
+    <target name="build" description="Build on all platforms.">
+        <platforms target="build"/>
+    </target>
+
+
+    <target name="package" depends="build" description="Package ANE">
+        <mkdir dir="${output.dir}/" />
+
+        <!-- Copy over library.swf to each platform output -->
+        <copy file="actionscript/${output.dir}/library.swf" todir="actionscript/${output.dir}/default" failonerror="true" />
+        <copy file="actionscript/${output.dir}/library.swf" todir="android/${output.dir}" failonerror="true" />
+
+        <!-- Compile ANE -->
+
+        <if>
+          <available file="ios" type="dir" />
+        <then>
+          <copy file="actionscript/${output.dir}/library.swf" todir="ios/${output.dir}" failonerror="true" />
+          <exec executable="${air.sdk}/bin/adt" failonerror="true">
+              <arg value="-package"/>
+              <arg value="-target"/>
+              <arg value="ane"/>
+              <arg value="${output.dir}/${output.name}"/>
+              <arg value="extension.xml"/>
+              <arg line="-swc actionscript/${output.dir}/actionscript.swc"/>
+              <arg line="-platform iPhone-ARM -C ios/${output.dir} ."/>
+              <arg line="-platform Android-ARM -C android/${output.dir} ."/>
+              <arg line="-platform default -C actionscript/${output.dir}/default ."/>
+          </exec>
+        </then>
+        <else>
+          <exec executable="${air.sdk}/bin/adt" failonerror="true">
+              <arg value="-package"/>
+              <arg value="-target"/>
+              <arg value="ane"/>
+              <arg value="${output.dir}/${output.name}"/>
+              <arg value="extension.xml"/>
+              <arg line="-swc actionscript/${output.dir}/actionscript.swc"/>
+              <arg line="-platform Android-ARM -C android/${output.dir} ."/>
+              <arg line="-platform default -C actionscript/${output.dir}/default ."/>
+          </exec>
+        </else>
+    </if>
+
+    </target>
+
+    <target name="clean">
+        <delete dir="${output.dir}" />
+        <delete file="build.log" />
+
+        <!-- Run clean on all other platforms -->
+        <platforms target="clean" />
+    </target>
+
+    <target name="all" depends="clean, package" />
+
+</project>

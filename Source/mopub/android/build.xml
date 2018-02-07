@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Tapdaq MoPub ANE Android Build Script" default="all">
+  <import file="../../common-androidgradle-build.xml"/>
+</project>

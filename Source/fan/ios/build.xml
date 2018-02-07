@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Tapdaq FAN ANE iOS Build Script" default="all">
+  <import file="../../common-ios-build.xml"/>
+</project>

@@ -1,0 +1,26 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+    <id>com.tapdaq.airsdk.ironsource</id>
+    <versionNumber>1.0</versionNumber>
+
+    <platforms>
+        <platform name="Android-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libtapdaqironsource.jar</nativeLibrary>
+                <initializer>com.tapdaq.airsdk.ironsource.Extension</initializer>
+                <finalizer>com.tapdaq.airsdk.ironsource.Extension</finalizer>
+            </applicationDeployment>
+        </platform>
+
+        <platform name="iPhone-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libTapdaqIronSource.a</nativeLibrary>
+                <initializer>TapdaqIronSourceExtensionInitializer</initializer>
+                <finalizer>TapdaqIronSourceExtensionFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+
+        <platform name="default">
+            <applicationDeployment />
+        </platform>
+    </platforms>
+</extension>

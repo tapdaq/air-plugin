@@ -1,0 +1,26 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+    <id>com.tapdaq.airsdk.admob</id>
+    <versionNumber>1.0</versionNumber>
+
+    <platforms>
+        <platform name="Android-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libtapdaqadmob.jar</nativeLibrary>
+                <initializer>com.tapdaq.airsdk.admob.Extension</initializer>
+                <finalizer>com.tapdaq.airsdk.admob.Extension</finalizer>
+            </applicationDeployment>
+        </platform>
+
+        <platform name="iPhone-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libTapdaqAdMob.a</nativeLibrary>
+                <initializer>TapdaqAdMobExtensionInitializer</initializer>
+                <finalizer>TapdaqAdMobExtensionFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+
+        <platform name="default">
+            <applicationDeployment />
+        </platform>
+    </platforms>
+</extension>

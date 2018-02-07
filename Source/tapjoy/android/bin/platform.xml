@@ -1,0 +1,13 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+    <packagedDependencies>
+		    <packagedDependency>TapdaqTapjoyAdapter.jar</packagedDependency>
+        <packagedDependency>tapjoyconnectlibrary.jar</packagedDependency>
+    </packagedDependencies>
+
+    <packagedResources>
+  <packagedResource>
+    <packageName>com.tapdaq.airsdk.tapjoy</packageName>
+    <folderName>tapjoy-res</folderName>
+  </packagedResource>
+</packagedResources>
+</platform>

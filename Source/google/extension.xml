@@ -1,0 +1,17 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+    <id>com.tapdaq.airsdk.google</id>
+    <versionNumber>1.0</versionNumber>
+
+    <platforms>
+        <platform name="Android-ARM">
+            <applicationDeployment>
+                <nativeLibrary>tapdaqgoogle.jar</nativeLibrary>
+                <initializer>com.tapdaq.airsdk.google.GoogleInitializer</initializer>
+            </applicationDeployment>
+        </platform>
+
+        <platform name="default">
+            <applicationDeployment />
+        </platform>
+    </platforms>
+</extension>

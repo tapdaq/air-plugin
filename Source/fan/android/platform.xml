@@ -1,0 +1,8 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+    <packagedDependencies>
+        <packagedDependency>TapdaqFANAdapter.jar</packagedDependency>
+        <packagedDependency>audience-network-sdk-4.26.0.jar</packagedDependency>
+    </packagedDependencies>
+    <packagedResources>
+</packagedResources>
+</platform>

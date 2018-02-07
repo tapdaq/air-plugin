@@ -1,0 +1,29 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+    <sdkVersion>11.0</sdkVersion>
+
+    <linkerOptions>
+        <option>-ios_version_min 8.0</option>
+        <option>-rpath @executable_path/Frameworks</option>
+        <option>-ObjC</option>
+
+        <option>-framework AdSupport</option>
+        <option>-framework AudioToolbox</option>
+        <option>-framework AVFoundation</option>
+        <option>-framework CoreTelephony</option>
+        <option>-framework EventKit</option>
+        <option>-framework Social</option>
+        <option>-framework StoreKit</option>
+        <option>-framework SystemConfiguration</option>
+
+        <option>-weak_framework JavaScriptCore</option>
+        <option>-weak_framework WatchConnectivity</option>
+        <option>-weak_framework WebKit</option>
+
+        <option>-lz.1.2.5</option>
+
+    </linkerOptions>
+
+    <packagedDependencies>
+      <packagedDependency>Frameworks/AdColonyAdapter.framework</packagedDependency>
+    </packagedDependencies>
+</platform>

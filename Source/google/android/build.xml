@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Google Play Services Android Build Script" default="all">
+
+     <record name="build.log" loglevel="verbose" action="start" />
+
+    <!-- Config File -->
+    <property file="build.config"/>
+
+    <target name="build" description="Build Android Library">
+
+        <!-- Classpaths for external libraries in lib directory -->
+        <path id="classpath">
+            <file file="${air.sdk}/lib/android/FlashRuntimeExtensions.jar"/>
+            <fileset dir="libs" casesensitive="yes">
+                <include name="**/*.jar"/>
+            </fileset>
+        </path>
+
+        <mkdir dir="${build.dir}/"/>
+        <mkdir dir="${output.dir}/"/>
+
+        <!-- Compile all Java classes in source directory -->
+        <javac
+            srcdir="${src.dir}"
+            destdir="${build.dir}"
+            target="1.6"
+            source="1.6"
+            classpathref="classpath"
+            includeantruntime="false"
+            failonerror="true"
+        />
+
+        <!-- Package compile class files into jar -->
+        <jar jarfile="${output.dir}/${output.name}" basedir="${build.dir}" />
+
+        <exec dir="libs" executable="sh">
+          <arg value="prep.sh" />
+          <arg value="${android.sdk}" />
+        </exec>
+
+        <zip destfile="${output.dir}/google-dependencies.jar">
+          <zipgroupfileset dir="libs" includes="*.jar"/>
+        </zip>
+
+        <!-- Copy over files to Android output directory -->
+        <copy todir="${output.dir}" failonerror="true">
+            <!-- Copy all resources from resources folder -->
+            <fileset dir="libs/res" />
+            <!-- Copy over platform.xml -->
+            <file file="platform.xml" />
+        </copy>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build.dir}" />
+        <delete dir="${output.dir}" />
+        <delete file="build.log" />
+    </target>
+
+    <target name="all" depends="clean, build" />
+
+</project>

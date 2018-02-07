@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Air Native Extension Gradle Build Scripts" default="all">
+
+    <!-- Config -->
+    <property file="build.config"/>
+
+    <target name="build" description="Gradle Build Android Library">
+
+        <!-- paths -->
+        <property name="build.intermediates" value="lib/build/intermediates"/>
+        <property name="build.release" value="${build.intermediates}/bundles/release"/>
+        <property name="build.exploded-aar" value="${build.intermediates}/exploded-aar"/>
+
+        <exec executable="/usr/libexec/java_home" outputproperty="java.home">
+            <!-- <arg line="-v 1.8" /> -->
+        </exec>
+
+        <!-- clean the build -->
+        <exec executable="./gradlew" >
+            <env key="JAVA_HOME" path="${java.home}"/>
+            <env key="ANDROID_HOME" path="${android.sdk}"/>
+            <arg line="clean"/>
+        </exec>
+
+        <!-- compile the java code -->
+        <exec executable="./gradlew" failonerror="true">
+            <env key="JAVA_HOME" path="${java.home}"/>
+            <env key="ANDROID_HOME" path="${android.sdk}"/>
+            <arg line=":lib:assembleRelease"/>
+        </exec>
+
+        <mkdir dir="${output.dir}/"/>
+
+        <!-- get the jar -->
+        <copy file="${build.release}/classes.jar" tofile="${output.dir}/${output.name}"/>
+
+        <!-- Copy over the bundled libs -->
+        <copy todir="${output.dir}">
+            <fileset dir="${build.release}/libs" excludes="FlashRuntimeExtensions.jar"/>
+        </copy>
+
+        <!-- Copy android related stuff -->
+        <copy todir="${output.dir}">
+            <fileset dir="res" erroronmissingdir="false"/>
+            <file file="platform.xml"/>
+        </copy>
+        <!-- Copy over the exploded aar libs -->
+        <exec executable="/bin/bash">
+            <arg value="extractJars.sh"/>
+        </exec>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build.release}" />
+        <delete dir="${build.exploded-aar}" />
+        <delete dir="${output.dir}" />
+        <delete file="build.log" />
+    </target>
+
+    <target name="all" depends="clean, build" />
+</project>

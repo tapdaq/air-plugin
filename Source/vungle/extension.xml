@@ -1,0 +1,26 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+    <id>com.tapdaq.airsdk.vungle</id>
+    <versionNumber>1.0</versionNumber>
+
+    <platforms>
+        <platform name="Android-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libtapdaqvungle.jar</nativeLibrary>
+                <initializer>com.tapdaq.airsdk.vungle.Extension</initializer>
+                <finalizer>com.tapdaq.airsdk.vungle.Extension</finalizer>
+            </applicationDeployment>
+        </platform>
+
+        <platform name="iPhone-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libTapdaqVungle.a</nativeLibrary>
+                <initializer>TapdaqVungleExtensionInitializer</initializer>
+                <finalizer>TapdaqVungleExtensionFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+
+        <platform name="default">
+            <applicationDeployment />
+        </platform>
+    </platforms>
+</extension>

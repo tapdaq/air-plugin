@@ -1,0 +1,30 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+    <sdkVersion>11.0</sdkVersion>
+
+    <linkerOptions>
+        <option>-ios_version_min 8.0</option>
+        <option>-rpath @executable_path/Frameworks</option>
+
+
+        <option>-framework AdSupport</option>
+        <option>-framework CoreData</option>
+        <option>-framework CoreGraphics</option>
+        <option>-framework CoreLocation</option>
+        <option>-framework CoreMotion</option>
+        <option>-framework Foundation</option>
+        <option>-framework MediaPlayer</option>
+        <option>-framework MessageUI</option>
+        <option>-framework Security</option>
+        <option>-framework SystemConfiguration</option>
+        <option>-framework UIKit</option>
+
+        <option>-weak_framework CoreTelephony</option>
+        <option>-weak_framework StoreKit</option>
+
+        <option>-lc++</option>
+    </linkerOptions>
+
+    <packagedDependencies>
+      <packagedDependency>Frameworks/TapjoyAdapter.framework</packagedDependency>
+    </packagedDependencies>
+</platform>

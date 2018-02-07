@@ -1,0 +1,26 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+    <sdkVersion>11.0</sdkVersion>
+
+    <linkerOptions>
+        <option>-ios_version_min 8.0</option>
+        <option>-rpath @executable_path/Frameworks</option>
+        <option>-ObjC</option>
+
+        <option>-framework AdSupport</option>
+        <option>-framework CoreGraphics</option>
+        <option>-framework CoreLocation</option>
+        <option>-framework CoreMedia</option>
+        <option>-framework CoreTelephony</option>
+        <option>-framework Foundation</option>
+        <option>-framework MediaPlayer</option>
+        <option>-framework QuartzCore</option>
+        <option>-framework StoreKit</option>
+        <option>-framework SystemConfiguration</option>
+        <option>-framework UIKit</option>
+        <option >-weak_framework WebKit</option>
+    </linkerOptions>
+
+    <packagedDependencies>
+      <packagedDependency>Frameworks/MoPubAdapter.framework</packagedDependency>
+    </packagedDependencies>
+</platform>

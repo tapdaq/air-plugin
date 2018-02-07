@@ -1,0 +1,26 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+    <id>com.tapdaq.airsdk.fan</id>
+    <versionNumber>1.0</versionNumber>
+
+    <platforms>
+        <platform name="Android-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libtapdaqfan.jar</nativeLibrary>
+                <initializer>com.tapdaq.airsdk.fan.Extension</initializer>
+                <finalizer>com.tapdaq.airsdk.fan.Extension</finalizer>
+            </applicationDeployment>
+        </platform>
+
+        <platform name="iPhone-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libTapdaqFAN.a</nativeLibrary>
+                <initializer>TapdaqFANExtensionInitializer</initializer>
+                <finalizer>TapdaqFANExtensionFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+
+        <platform name="default">
+            <applicationDeployment />
+        </platform>
+    </platforms>
+</extension>

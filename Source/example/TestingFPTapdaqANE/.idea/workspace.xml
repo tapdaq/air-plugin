@@ -1,0 +1,1351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="498c1f1b-5ef3-406a-b53b-4bd82a17cd54" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../adcolony/ios/sharedframeworks/AdColonyAdapter.framework/AdColonyAdapter" afterPath="$PROJECT_DIR$/../../adcolony/ios/sharedframeworks/AdColonyAdapter.framework/AdColonyAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../admob/ios/sharedframeworks/AdMobAdapter.framework/AdMobAdapter" afterPath="$PROJECT_DIR$/../../admob/ios/sharedframeworks/AdMobAdapter.framework/AdMobAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../applovin/ios/sharedframeworks/AppLovinAdapter.framework/AppLovinAdapter" afterPath="$PROJECT_DIR$/../../applovin/ios/sharedframeworks/AppLovinAdapter.framework/AppLovinAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../chartboost/ios/sharedframeworks/ChartboostAdapter.framework/ChartboostAdapter" afterPath="$PROJECT_DIR$/../../chartboost/ios/sharedframeworks/ChartboostAdapter.framework/ChartboostAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes/Tapdaq.ane" afterPath="$PROJECT_DIR$/anes/Tapdaq.ane" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes/TapdaqAdColony.ane" afterPath="$PROJECT_DIR$/anes/TapdaqAdColony.ane" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes/TapdaqAdmob.ane" afterPath="$PROJECT_DIR$/anes/TapdaqAdmob.ane" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes/TapdaqApplovin.ane" afterPath="$PROJECT_DIR$/anes/TapdaqApplovin.ane" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes/TapdaqChartboost.ane" afterPath="$PROJECT_DIR$/anes/TapdaqChartboost.ane" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes/TapdaqFAN.ane" afterPath="$PROJECT_DIR$/anes/TapdaqFAN.ane" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes/TapdaqGoogle.ane" afterPath="$PROJECT_DIR$/anes/TapdaqGoogle.ane" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes/TapdaqHyprMX.ane" afterPath="$PROJECT_DIR$/anes/TapdaqHyprMX.ane" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes/TapdaqInMobi.ane" afterPath="$PROJECT_DIR$/anes/TapdaqInMobi.ane" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes/TapdaqIronSource.ane" afterPath="$PROJECT_DIR$/anes/TapdaqIronSource.ane" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes/TapdaqMoPub.ane" afterPath="$PROJECT_DIR$/anes/TapdaqMoPub.ane" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes/TapdaqReceptiv.ane" afterPath="$PROJECT_DIR$/anes/TapdaqReceptiv.ane" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes/TapdaqTapjoy.ane" afterPath="$PROJECT_DIR$/anes/TapdaqTapjoy.ane" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes/TapdaqUnity.ane" afterPath="$PROJECT_DIR$/anes/TapdaqUnity.ane" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anes/TapdaqVungle.ane" afterPath="$PROJECT_DIR$/anes/TapdaqVungle.ane" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/AdColonyAdapter.framework/AdColonyAdapter" afterPath="$PROJECT_DIR$/resources/Frameworks/AdColonyAdapter.framework/AdColonyAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/AdMobAdapter.framework/AdMobAdapter" afterPath="$PROJECT_DIR$/resources/Frameworks/AdMobAdapter.framework/AdMobAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/AppLovinAdapter.framework/AppLovinAdapter" afterPath="$PROJECT_DIR$/resources/Frameworks/AppLovinAdapter.framework/AppLovinAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/ChartboostAdapter.framework/ChartboostAdapter" afterPath="$PROJECT_DIR$/resources/Frameworks/ChartboostAdapter.framework/ChartboostAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/FANAdapter.framework/FANAdapter" afterPath="$PROJECT_DIR$/resources/Frameworks/FANAdapter.framework/FANAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/HyprMXAdapter.framework/HyprMXAdapter" afterPath="$PROJECT_DIR$/resources/Frameworks/HyprMXAdapter.framework/HyprMXAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/InMobiAdapter.framework/InMobiAdapter" afterPath="$PROJECT_DIR$/resources/Frameworks/InMobiAdapter.framework/InMobiAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/IronSourceAdapter.framework/IronSourceAdapter" afterPath="$PROJECT_DIR$/resources/Frameworks/IronSourceAdapter.framework/IronSourceAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/MoPubAdapter.framework/MoPubAdapter" afterPath="$PROJECT_DIR$/resources/Frameworks/MoPubAdapter.framework/MoPubAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/ReceptivAdapter.framework/ReceptivAdapter" afterPath="$PROJECT_DIR$/resources/Frameworks/ReceptivAdapter.framework/ReceptivAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/Tapdaq.framework/Tapdaq" afterPath="$PROJECT_DIR$/resources/Frameworks/Tapdaq.framework/Tapdaq" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/TapjoyAdapter.framework/TapjoyAdapter" afterPath="$PROJECT_DIR$/resources/Frameworks/TapjoyAdapter.framework/TapjoyAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/UnityAdsAdapter.framework/UnityAdsAdapter" afterPath="$PROJECT_DIR$/resources/Frameworks/UnityAdsAdapter.framework/UnityAdsAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/VungleAdapter.framework/VungleAdapter" afterPath="$PROJECT_DIR$/resources/Frameworks/VungleAdapter.framework/VungleAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPCloseBtn.png" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPCloseBtn.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPCloseBtn@2x.png" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPCloseBtn@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPCloseBtn@3x.png" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPCloseBtn@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPCloseButtonX.png" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPCloseButtonX.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPCloseButtonX@2x.png" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPCloseButtonX@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPCloseButtonX@3x.png" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPCloseButtonX@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPDAAIcon.png" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPDAAIcon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPDAAIcon@2x.png" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPDAAIcon@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPDAAIcon@3x.png" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPDAAIcon@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPMutedBtn.png" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPMutedBtn.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPMutedBtn@2x.png" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPMutedBtn@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPMutedBtn@3x.png" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPMutedBtn@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPPlayBtn.png" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPPlayBtn.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPPlayBtn@2x.png" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPPlayBtn@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPPlayBtn@3x.png" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPPlayBtn@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPUnmutedBtn.png" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPUnmutedBtn.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPUnmutedBtn@2x.png" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPUnmutedBtn@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPUnmutedBtn@3x.png" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPUnmutedBtn@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/TJCLoadingView.nib" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/TJCLoadingView.nib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/TJCclose_button.png" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/TJCclose_button.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/TJCclose_button@2x.png" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/TJCclose_button@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/TJMRAIDWebBrowserViewController.nib" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/TJMRAIDWebBrowserViewController.nib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/addressbar-background.png" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/addressbar-background.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/addressbar-background@2x.png" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/addressbar-background@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/back-disabled.png" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/back-disabled.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/back-disabled@2x.png" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/back-disabled@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/back.png" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/back.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/back@2x.png" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/back@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/close.png" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/close.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/close@2x.png" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/close@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/forward-disabled.png" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/forward-disabled.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/forward-disabled@2x.png" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/forward-disabled@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/forward.png" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/forward.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/forward@2x.png" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/forward@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/openbrowser.png" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/openbrowser.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/openbrowser@2x.png" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/openbrowser@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/refresh.png" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/refresh.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/refresh@2x.png" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/refresh@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../fan/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../../fan/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../fan/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../../fan/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../fan/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../../fan/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../fan/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/../../fan/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../fan/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../../fan/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../fan/android/.gradle/2.14.1/tasks/_lib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/../../fan/android/.gradle/2.14.1/tasks/_lib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../fan/android/.gradle/2.14.1/tasks/_lib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/../../fan/android/.gradle/2.14.1/tasks/_lib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../fan/ios/sharedframeworks/FANAdapter.framework/FANAdapter" afterPath="$PROJECT_DIR$/../../fan/ios/sharedframeworks/FANAdapter.framework/FANAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hyprmx/ios/sharedframeworks/HyprMXAdapter.framework/HyprMXAdapter" afterPath="$PROJECT_DIR$/../../hyprmx/ios/sharedframeworks/HyprMXAdapter.framework/HyprMXAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../inmobi/ios/sharedframeworks/InMobiAdapter.framework/InMobiAdapter" afterPath="$PROJECT_DIR$/../../inmobi/ios/sharedframeworks/InMobiAdapter.framework/InMobiAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../ironsource/ios/sharedframeworks/IronSourceAdapter.framework/IronSourceAdapter" afterPath="$PROJECT_DIR$/../../ironsource/ios/sharedframeworks/IronSourceAdapter.framework/IronSourceAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../mopub/ios/sharedframeworks/MoPubAdapter.framework/MoPub.bundle/MPAdBrowserController.nib" afterPath="$PROJECT_DIR$/../../mopub/ios/sharedframeworks/MoPubAdapter.framework/MoPub.bundle/MPAdBrowserController.nib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../mopub/ios/sharedframeworks/MoPubAdapter.framework/MoPubAdapter" afterPath="$PROJECT_DIR$/../../mopub/ios/sharedframeworks/MoPubAdapter.framework/MoPubAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../receptiv/ios/sharedframeworks/ReceptivAdapter.framework/ReceptivAdapter" afterPath="$PROJECT_DIR$/../../receptiv/ios/sharedframeworks/ReceptivAdapter.framework/ReceptivAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../tapdaq/ios/sharedframeworks/Tapdaq.framework/Tapdaq" afterPath="$PROJECT_DIR$/../../tapdaq/ios/sharedframeworks/Tapdaq.framework/Tapdaq" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../tapjoy/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../../tapjoy/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../tapjoy/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../../tapjoy/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../tapjoy/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../../tapjoy/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../tapjoy/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/../../tapjoy/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../tapjoy/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../../tapjoy/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../tapjoy/android/.gradle/2.14.1/tasks/_lib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/../../tapjoy/android/.gradle/2.14.1/tasks/_lib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../tapjoy/android/.gradle/2.14.1/tasks/_lib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/../../tapjoy/android/.gradle/2.14.1/tasks/_lib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../tapjoy/ios/sharedframeworks/TapjoyAdapter.framework/TapjoyAdapter" afterPath="$PROJECT_DIR$/../../tapjoy/ios/sharedframeworks/TapjoyAdapter.framework/TapjoyAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../unity/ios/sharedframeworks/UnityAdsAdapter.framework/UnityAdsAdapter" afterPath="$PROJECT_DIR$/../../unity/ios/sharedframeworks/UnityAdsAdapter.framework/UnityAdsAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../vungle/ios/sharedframeworks/VungleAdapter.framework/VungleAdapter" afterPath="$PROJECT_DIR$/../../vungle/ios/sharedframeworks/VungleAdapter.framework/VungleAdapter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../adcolony/ios/sharedframeworks/AdColonyAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/../../adcolony/ios/sharedframeworks/AdColonyAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../admob/ios/sharedframeworks/AdMobAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/../../admob/ios/sharedframeworks/AdMobAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../applovin/ios/sharedframeworks/AppLovinAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/../../applovin/ios/sharedframeworks/AppLovinAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../chartboost/ios/sharedframeworks/ChartboostAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/../../chartboost/ios/sharedframeworks/ChartboostAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tapdaq-app.xml" afterPath="$PROJECT_DIR$/Tapdaq-app.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestingFPTapdaqANE.iml" afterPath="$PROJECT_DIR$/TestingFPTapdaqANE.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/AdColonyAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/resources/Frameworks/AdColonyAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/AdMobAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/resources/Frameworks/AdMobAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/AppLovinAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/resources/Frameworks/AppLovinAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/ChartboostAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/resources/Frameworks/ChartboostAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/FANAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/resources/Frameworks/FANAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/HyprMXAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/resources/Frameworks/HyprMXAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/InMobiAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/resources/Frameworks/InMobiAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/IronSourceAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/resources/Frameworks/IronSourceAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/MoPubAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/resources/Frameworks/MoPubAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/ReceptivAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/resources/Frameworks/ReceptivAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/Tapdaq.framework/Headers/Tapdaq.h" afterPath="$PROJECT_DIR$/resources/Frameworks/Tapdaq.framework/Headers/Tapdaq.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/Tapdaq.framework/Headers/TapdaqMain.h" afterPath="$PROJECT_DIR$/resources/Frameworks/Tapdaq.framework/Headers/TapdaqMain.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/Tapdaq.framework/Info.plist" afterPath="$PROJECT_DIR$/resources/Frameworks/Tapdaq.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/TapjoyAdapter.framework/Headers/TDMTJSDKRequests.h" afterPath="$PROJECT_DIR$/resources/Frameworks/TapjoyAdapter.framework/Headers/TDMTJSDKRequests.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/TapjoyAdapter.framework/Headers/TapjoyAdapter.h" afterPath="$PROJECT_DIR$/resources/Frameworks/TapjoyAdapter.framework/Headers/TapjoyAdapter.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/TapjoyAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/resources/Frameworks/TapjoyAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/UnityAdsAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/resources/Frameworks/UnityAdsAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Frameworks/VungleAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/resources/Frameworks/VungleAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MRAID.bundle/mraid.js" afterPath="$PROJECT_DIR$/resources/MRAID.bundle/mraid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/MoPub.bundle/MPCountdownTimer.html" afterPath="$PROJECT_DIR$/resources/MoPub.bundle/MPCountdownTimer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/1.sql" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/1.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/2.sql" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/2.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/3.sql" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/3.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/Info.plist" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/MRAID_Standard_HTML_Stub.html" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/MRAID_Standard_HTML_Stub.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/MRAID_Standard_JS_Stub.html" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/MRAID_Standard_JS_Stub.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/mraid.js.txt" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/mraid.js.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/TapjoyResources.bundle/revision.txt" afterPath="$PROJECT_DIR$/resources/TapjoyResources.bundle/revision.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../fan/ios/sharedframeworks/FANAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/../../fan/ios/sharedframeworks/FANAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hyprmx/ios/sharedframeworks/HyprMXAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/../../hyprmx/ios/sharedframeworks/HyprMXAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../inmobi/ios/sharedframeworks/InMobiAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/../../inmobi/ios/sharedframeworks/InMobiAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../ironsource/ios/sharedframeworks/IronSourceAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/../../ironsource/ios/sharedframeworks/IronSourceAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../mopub/ios/sharedframeworks/MoPubAdapter.framework/Headers/MoPubAdapter.h" afterPath="$PROJECT_DIR$/../../mopub/ios/sharedframeworks/MoPubAdapter.framework/Headers/MoPubAdapter.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../mopub/ios/sharedframeworks/MoPubAdapter.framework/Headers/TDMoPubSDKRequests.h" afterPath="$PROJECT_DIR$/../../mopub/ios/sharedframeworks/MoPubAdapter.framework/Headers/TDMoPubSDKRequests.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../mopub/ios/sharedframeworks/MoPubAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/../../mopub/ios/sharedframeworks/MoPubAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../mopub/ios/sharedframeworks/MoPubAdapter.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/../../mopub/ios/sharedframeworks/MoPubAdapter.framework/Modules/module.modulemap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../receptiv/ios/sharedframeworks/ReceptivAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/../../receptiv/ios/sharedframeworks/ReceptivAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/Tapdaq.h" afterPath="$PROJECT_DIR$/../../tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/Tapdaq.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TapdaqMain.h" afterPath="$PROJECT_DIR$/../../tapdaq/ios/sharedframeworks/Tapdaq.framework/Headers/TapdaqMain.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../tapdaq/ios/sharedframeworks/Tapdaq.framework/Info.plist" afterPath="$PROJECT_DIR$/../../tapdaq/ios/sharedframeworks/Tapdaq.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../tapjoy/ios/sharedframeworks/TapjoyAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/../../tapjoy/ios/sharedframeworks/TapjoyAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../unity/ios/sharedframeworks/UnityAdsAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/../../unity/ios/sharedframeworks/UnityAdsAdapter.framework/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../vungle/ios/sharedframeworks/VungleAdapter.framework/Info.plist" afterPath="$PROJECT_DIR$/../../vungle/ios/sharedframeworks/VungleAdapter.framework/Info.plist" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Tapdaq-app.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tapdaq-app.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="58" lean-forward="false" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="ActionScript Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>EVENT_LOAD_OFFERWALL</find>
+      <find>bannerSizePickerList = addDropDown([Banner.SIZE_STANDARD,Banner.SIZE_MEDIUM_RECT,Banner.SIZE_FULL,Banner.SIZE_LARGE,Banner.SIZE_LEADERBOARD, Banner.SIZE_SMART]);bannerSizePickerList = addDropDown([Banner.SIZE_STANDARD,Banner.SIZE_MEDIUM_RECT,Banner.SIZE_FULL,Banner.SIZE_LARGE,Banner.SIZE_LEADERBOARD, Banner.SIZE_SMART]);</find>
+      <find>context</find>
+      <find>nativead</find>
+      <find>onNativeAdData</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../../tapdaq/actionscript/src/com/tapdaq/airsdk/Offerwall.as" />
+        <option value="$PROJECT_DIR$/src/com/tapdaq/airsdk/models/Model.as" />
+        <option value="$PROJECT_DIR$/src/com/tapdaq/airsdk/utils/AppUtils.as" />
+        <option value="$PROJECT_DIR$/src/com/tapdaq/airsdk/Utils.as" />
+        <option value="$PROJECT_DIR$/anes/Tapdaq.ane!/META-INF/ANE/iPhone-ARM/platform.xml" />
+        <option value="$PROJECT_DIR$/src/com/tapdaq/airsdk/utils/Utils.as" />
+        <option value="$PROJECT_DIR$/src/com/tapdaq/airsdk/views/UIView.as" />
+        <option value="$PROJECT_DIR$/src/com/tapdaq/airsdk/utils/StringUtils.as" />
+        <option value="$PROJECT_DIR$/src/com/tapdaq/airsdk/views/NativeAd.as" />
+        <option value="$PROJECT_DIR$/src/com/tapdaq/airsdk/views/AppRoot.as" />
+        <option value="$PROJECT_DIR$/Tapdaq-app.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="975" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestingFPTapdaqANE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestingFPTapdaqANE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestingFPTapdaqANE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestingFPTapdaqANE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestingFPTapdaqANE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="flex.preferred.ios.device.id" value="933e5480e17169d3c248d3b93ec7d6432aaea1fb" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="com.tapdaq.airsdk.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/tapdaq/airsdk/utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Flash App.ios">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestingFPTapdaqANE" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="android" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="TestingFPTapdaqANE" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="AndroidDevice" />
+      <option name="moduleName" value="TestingFPTapdaqANE" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ios" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="TestingFPTapdaqANE" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="iOSDevice" />
+      <option name="moduleName" value="TestingFPTapdaqANE" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="false" name="desktop" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="TestingFPTapdaqANE" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="TestingFPTapdaqANE" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Flash App.android" />
+      <item index="1" class="java.lang.String" itemvalue="Flash App.ios" />
+      <item index="2" class="java.lang.String" itemvalue="Flash App.desktop" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="498c1f1b-5ef3-406a-b53b-4bd82a17cd54" name="Default" comment="" />
+      <created>1507815922872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1507815922872</updated>
+      <workItem from="1507815924529" duration="2748000" />
+      <workItem from="1508335446243" duration="9799000" />
+      <workItem from="1508419352713" duration="8995000" />
+      <workItem from="1510664960645" duration="9638000" />
+      <workItem from="1510900229178" duration="9368000" />
+      <workItem from="1511154822915" duration="7778000" />
+      <workItem from="1511266850696" duration="7593000" />
+      <workItem from="1511531079093" duration="32000" />
+      <workItem from="1511543211499" duration="6619000" />
+      <workItem from="1511846698719" duration="3238000" />
+      <workItem from="1511877481004" duration="4611000" />
+      <workItem from="1511956602518" duration="683000" />
+      <workItem from="1512040876205" duration="316000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="80482000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="975" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32616082" sideWeight="0.41086692" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34162897" sideWeight="0.5842491" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17521368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2774632" sideWeight="0.41575092" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34162897" sideWeight="0.5842491" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34463277" sideWeight="0.41575092" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32542372" sideWeight="0.41086692" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21550672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="20" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/views/AppRoot.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="94" lean-forward="false" selection-start-line="88" selection-start-column="94" selection-end-line="88" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/views/UIView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tapdaq-app.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/feathers.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="758" column="25" lean-forward="false" selection-start-line="758" selection-start-column="25" selection-end-line="758" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Applications/Adobe/air27/frameworks/libs/air/airglobal.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="647" column="25" lean-forward="false" selection-start-line="647" selection-start-column="25" selection-end-line="647" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../tapdaq/actionscript/src/com/tapdaq/airsdk/Offerwall.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tapdaq-app.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="59" lean-forward="false" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/models/Model.as" />
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/utils/AppUtils.as" />
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/views/UIView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2700">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/anes/Tapdaq.ane!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="301" column="33" lean-forward="true" selection-start-line="301" selection-start-column="33" selection-end-line="301" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/views/AppRoot.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2753">
+          <caret line="321" column="21" lean-forward="false" selection-start-line="321" selection-start-column="21" selection-end-line="321" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/views/AppRoot.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/views/UIView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="48" column="66" lean-forward="false" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tapdaq-app.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tapdaq-app.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/views/AppRoot.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="94" lean-forward="false" selection-start-line="88" selection-start-column="94" selection-end-line="88" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/views/UIView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tapdaq-app.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/feathers.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="758" column="25" lean-forward="false" selection-start-line="758" selection-start-column="25" selection-end-line="758" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Applications/Adobe/air27/frameworks/libs/air/airglobal.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="647" column="25" lean-forward="false" selection-start-line="647" selection-start-column="25" selection-end-line="647" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../tapdaq/actionscript/src/com/tapdaq/airsdk/Offerwall.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/models/Model.as" />
+    <entry file="jar://$PROJECT_DIR$/anes/Tapdaq.ane!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="430" column="25" lean-forward="false" selection-start-line="430" selection-start-column="25" selection-end-line="430" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tapdaq-app.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="59" lean-forward="false" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/views/UIView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/views/AppRoot.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="245" column="5" lean-forward="false" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tapdaq-app.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tapdaq-app.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-496">
+          <caret line="17" column="59" lean-forward="false" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/views/UIView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3378">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/views/AppRoot.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4440">
+          <caret line="317" column="21" lean-forward="false" selection-start-line="317" selection-start-column="21" selection-end-line="317" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tapdaq-app.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/views/AppRoot.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="94" lean-forward="false" selection-start-line="88" selection-start-column="94" selection-end-line="88" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/views/UIView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tapdaq-app.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/feathers.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="758" column="25" lean-forward="false" selection-start-line="758" selection-start-column="25" selection-end-line="758" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../tapdaq/actionscript/src/com/tapdaq/airsdk/Offerwall.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/models/Model.as" />
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/utils/AppUtils.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/anes/Tapdaq.ane!/META-INF/ANE/extension.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/anes/Tapdaq.ane!/META-INF/ANE/iPhone-ARM/platform.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/views/UIView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="137" column="10" lean-forward="false" selection-start-line="137" selection-start-column="10" selection-end-line="137" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Applications/Adobe/air27/frameworks/libs/air/airglobal.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="12121" column="21" lean-forward="false" selection-start-line="12121" selection-start-column="21" selection-end-line="12121" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Adobe/air25_flex46/frameworks/projects/framework/src/mx/utils/NameUtil.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Adobe/air25_flex46/frameworks/projects/framework/src/mx/utils/StringUtil.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4228">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/anes/Tapdaq.ane!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="39" column="81" lean-forward="false" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/starling.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="2310" column="25" lean-forward="false" selection-start-line="2310" selection-start-column="25" selection-end-line="2310" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/utils/StringUtils.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/views/NativeAd.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tapdaq/airsdk/views/AppRoot.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="196" column="36" lean-forward="false" selection-start-line="196" selection-start-column="36" selection-end-line="196" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tapdaq-app.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="58" lean-forward="false" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>groovy-2.4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TestingFPTapdaqANE|TestingFPTapdaqANE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
