@@ -10,9 +10,9 @@ See our [quickstart](https://github.com/tapdaq/air-plugin/wiki/Quickstart) guide
 Details of how to build/change/update the plugin are within Source/README.md
 
 ## Contributing
-We recommend a GitFlow approach to this, develop, master & release branches exist for stable/development code. Individual commits will not be reviewed by Tapdaq but will be monitored periodically.
+We welcome all improvements, please make a pull request with suggested changes and we will review it.
 
-Please update the documentation Wiki/ReadMe's when making changes to help fellow devs know whats changed.
+Please update the documentation where possible when making changes to help fellow devs know whats changed.
 
 ## Support
 You should report any issues here on GitHub and the community may be able to help.
