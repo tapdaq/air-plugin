@@ -1,3 +1,6 @@
+# DEPRECATED
+Tapdaq is now deprecated and the SDK will no longer intialise.
+
 # Adobe-Air-Plugin
 Welcome to the community supported Tapdaq Adobe Air Plugin. This plugin is for iOS and Android targets only.
 
